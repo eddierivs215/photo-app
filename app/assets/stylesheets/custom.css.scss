@@ -60,3 +60,49 @@
 .btn-primary:visited, .btn-danger:visited {
   color: #fff;
 }
+
+.jumbotron {
+    background-image: asset-url("cat.jpg");
+    display: inline-block;
+    background-size: cover;
+    height: 550px;
+    width: 1090px;
+    text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.header-padding{
+  padding-left:8em
+}
+
+.center{
+    text-align: center;
+}
+
+.signup-btn{
+  margin-top: 60%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.welcome {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.features {
+  ul {
+    margin-left: 0;
+    padding-left: 15px;
+  }
+}
+
+.no-left-padding {
+  padding-left: 0 !important;
+}
+
+.listing {
+  list-style: none;
+  padding-left: 0;
+}
