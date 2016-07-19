@@ -75,7 +75,7 @@
 }
 
 .header-padding{
-  padding-left:8em
+  padding-left:1em
 }
 
 .center{
@@ -102,7 +102,17 @@
   padding-left: 0 !important;
 }
 
+.header-bottom{
+  padding-left: 1em;
+}
 .listing {
   list-style: none;
   padding-left: 0;
 }
+
+
+.lead {
+  font-family: 'Helvetica Neue' !important;
+  font-size: 30px !important;
+}
+
