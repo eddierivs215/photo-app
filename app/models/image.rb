@@ -1,6 +1,5 @@
 class Image < ActiveRecord::Base
-  has_many :user_images
-  has_many :users, through: :user_images
+  belongs_to :user
   mount_uploader :picture, PictureUploader
   validate :picture_size
   
